@@ -1,0 +1,1 @@
+event_id,sample_time_utc,region_id,latitude,longitude,rainfall_24h_mm,flood_depth_m,sewage_distance_m,water_source_type,pipe_vulnerability,contamination_within_24h

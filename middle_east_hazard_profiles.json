@@ -1,0 +1,386 @@
+{
+  "regional_profile_name": "ThinkHazard! & GFDRR Regional Disaster Risk Assessment - Middle East",
+  "assessment_framework": "World Bank / Global Facility for Disaster Reduction and Recovery (GFDRR: https://www.gfdrr.org/) / UNDRR (https://www.undrr.org/) / ThinkHazard! (https://thinkhazard.org/)",
+  "last_updated": "2026-10-14",
+  "country_hazard_profiles": {
+    "Turkey": {
+      "iso3": "TUR",
+      "capital": "Ankara",
+      "primary_tectonic_setting": "Anatolian Plate convergence between Arabian, African and Eurasian plates; North & East Anatolian Strike-Slip Faults",
+      "hazards": {
+        "Earthquake": {
+          "level": "High",
+          "driver": "North & East Anatolian Fault Zones (M7+ frequency)"
+        },
+        "Wildfire": {
+          "level": "High",
+          "driver": "Mediterranean & Aegean pine forest ecosystems under climate heating"
+        },
+        "River Flood": {
+          "level": "High",
+          "driver": "Black Sea and Marmara steep basin precipitation"
+        },
+        "Landslide": {
+          "level": "High",
+          "driver": "Pontic Mountains and eastern Anatolian steep terrain"
+        },
+        "Extreme Heat": {
+          "level": "High",
+          "driver": "Subtropical Mediterranean heat waves"
+        }
+      }
+    },
+    "Iran": {
+      "iso3": "IRN",
+      "capital": "Tehran",
+      "primary_tectonic_setting": "Arabian-Eurasian continental collision zone; Zagros Fold-and-Thrust Belt, Alborz Fault, Kopeh Dagh, Central Iranian micro-continents",
+      "hazards": {
+        "Earthquake": {
+          "level": "High",
+          "driver": "Zagros and Alborz active thrust and strike-slip faults"
+        },
+        "Flash Flood": {
+          "level": "High",
+          "driver": "Arid basin convective rainstorms and rapid runoff"
+        },
+        "Drought": {
+          "level": "High",
+          "driver": "Chronic multi-year aridification and groundwater depletion"
+        },
+        "Extreme Heat": {
+          "level": "High",
+          "driver": "Persian Gulf and Khuzestan subtropical high persistence"
+        },
+        "Landslide": {
+          "level": "Medium",
+          "driver": "Alborz mountain slopes"
+        }
+      }
+    },
+    "Iraq": {
+      "iso3": "IRQ",
+      "capital": "Baghdad",
+      "primary_tectonic_setting": "Mesopotamian foreland basin adjacent to the Zagros thrust belt",
+      "hazards": {
+        "Drought": {
+          "level": "High",
+          "driver": "Tigris-Euphrates upstream flow reduction and prolonged precipitation deficits"
+        },
+        "Extreme Heat": {
+          "level": "High",
+          "driver": "Summer temperatures routinely exceeding 50°C in southern plains"
+        },
+        "Extreme Dust Storm": {
+          "level": "High",
+          "driver": "Degraded marshlands and bare soil Haboob generation"
+        },
+        "River Flood": {
+          "level": "Medium",
+          "driver": "Tigris and Euphrates spring snowmelt surges"
+        },
+        "Earthquake": {
+          "level": "Medium",
+          "driver": "Eastern border Zagros foothills"
+        }
+      }
+    },
+    "Syria": {
+      "iso3": "SYR",
+      "capital": "Damascus",
+      "primary_tectonic_setting": "Northern Dead Sea Transform & Palmyride fold belt",
+      "hazards": {
+        "Earthquake": {
+          "level": "High",
+          "driver": "Dead Sea Transform / Ghab / Yammouneh fault system"
+        },
+        "Drought": {
+          "level": "High",
+          "driver": "Fertile Crescent multi-annual precipitation failure"
+        },
+        "Wildfire": {
+          "level": "High",
+          "driver": "Coastal Mediterranean mountains (Latakia, Tartus)"
+        },
+        "Extreme Heat": {
+          "level": "High",
+          "driver": "Inland desert heat extremes"
+        }
+      }
+    },
+    "Lebanon": {
+      "iso3": "LBN",
+      "capital": "Beirut",
+      "primary_tectonic_setting": "Dead Sea Transform restraining bend (Yammouneh, Roum, Serghaya, Mount Lebanon thrust)",
+      "hazards": {
+        "Earthquake": {
+          "level": "High",
+          "driver": "Yammouneh fault strike-slip & Mount Lebanon offshore thrust"
+        },
+        "Wildfire": {
+          "level": "High",
+          "driver": "Mount Lebanon and Chouf pine and oak forests"
+        },
+        "Tsunami": {
+          "level": "Medium",
+          "driver": "Seismogenic offshore thrust faulting"
+        },
+        "Flash Flood": {
+          "level": "Medium",
+          "driver": "Steep coastal wadi catchments"
+        }
+      }
+    },
+    "Jordan": {
+      "iso3": "JOR",
+      "capital": "Amman",
+      "primary_tectonic_setting": "Dead Sea Transform eastern flank & Wadi Arabah",
+      "hazards": {
+        "Water Scarcity & Drought": {
+          "level": "High",
+          "driver": "Ranked among the top 5 most water-stressed countries globally"
+        },
+        "Flash Flood": {
+          "level": "High",
+          "driver": "Steep wadi canyons draining to Dead Sea and Jordan Valley"
+        },
+        "Earthquake": {
+          "level": "Medium",
+          "driver": "Jordan Valley & Wadi Arabah strike-slip faults"
+        },
+        "Extreme Heat": {
+          "level": "High",
+          "driver": "Eastern badia and Jordan Valley summer heat"
+        }
+      }
+    },
+    "Israel": {
+      "iso3": "ISR",
+      "capital": "Jerusalem",
+      "primary_tectonic_setting": "Dead Sea Transform (Sinai sub-plate / Arabian plate boundary)",
+      "hazards": {
+        "Wildfire": {
+          "level": "High",
+          "driver": "Judean Hills, Carmel and Galilee Mediterranean WUI"
+        },
+        "Flash Flood": {
+          "level": "High",
+          "driver": "Judean Desert, Negev, and coastal micro-basins"
+        },
+        "Extreme Heat": {
+          "level": "High",
+          "driver": "Sharav desert winds and summer heat domes"
+        },
+        "Earthquake": {
+          "level": "Medium",
+          "driver": "Jordan Valley, Dead Sea basin, and Carmel fault"
+        }
+      }
+    },
+    "State of Palestine": {
+      "iso3": "PSE",
+      "capital": "Ramallah / East Jerusalem",
+      "primary_tectonic_setting": "Central Judean/Samarian anticlinorium adjacent to the Jordan Rift Valley",
+      "hazards": {
+        "Earthquake": {
+          "level": "Medium",
+          "driver": "Proximity to Dead Sea Transform & Jericho fault segment"
+        },
+        "Flash Flood": {
+          "level": "High",
+          "driver": "Steep eastern slopes descending to the Jordan Valley"
+        },
+        "Water Scarcity": {
+          "level": "High",
+          "driver": "Aquifer dependency and rainfall variability"
+        }
+      }
+    },
+    "Egypt": {
+      "iso3": "EGY",
+      "capital": "Cairo",
+      "primary_tectonic_setting": "Northeast African craton, Gulf of Suez rift & Gulf of Aqaba rift",
+      "hazards": {
+        "Flash Flood": {
+          "level": "High",
+          "driver": "Sinai Peninsula and Red Sea Hills wadi torrents"
+        },
+        "Extreme Heat": {
+          "level": "High",
+          "driver": "Subtropical desert climate with 45°C+ summer peaks"
+        },
+        "Coastal Flood & Subsidence": {
+          "level": "High",
+          "driver": "Nile Delta coastal sea level rise vulnerability"
+        },
+        "Earthquake": {
+          "level": "Medium",
+          "driver": "Gulf of Aqaba, Gulf of Suez, and Dahshur faults"
+        }
+      }
+    },
+    "Saudi Arabia": {
+      "iso3": "SAU",
+      "capital": "Riyadh",
+      "primary_tectonic_setting": "Arabian Shield, Red Sea oceanic rift margin & Cenozoic volcanic fields (Harrats)",
+      "hazards": {
+        "Extreme Heat": {
+          "level": "High",
+          "driver": "Interior Rub' al Khali and coastal Tihamah extreme heat (50°C+)"
+        },
+        "Flash Flood": {
+          "level": "High",
+          "driver": "Asir and Hijaz mountain wadis draining towards western coastal plain"
+        },
+        "Extreme Dust Storm": {
+          "level": "High",
+          "driver": "Desert shamal winds and active dunes"
+        },
+        "Volcanic Unrest": {
+          "level": "Medium",
+          "driver": "Harrat Rahat, Harrat Lunayyir active volcanic fields"
+        }
+      }
+    },
+    "Yemen": {
+      "iso3": "YEM",
+      "capital": "Sana'a",
+      "primary_tectonic_setting": "Afar Triple Junction, Gulf of Aden rift & Yemen highlands",
+      "hazards": {
+        "Tropical Cyclone": {
+          "level": "High",
+          "driver": "Arabian Sea cyclogenesis striking Socotra and southern coast"
+        },
+        "Flash Flood": {
+          "level": "High",
+          "driver": "Torrential monsoon rains descending rugged western highlands"
+        },
+        "Earthquake": {
+          "level": "Medium",
+          "driver": "Red Sea / Gulf of Aden extensional rift faulting"
+        },
+        "Drought": {
+          "level": "High",
+          "driver": "Severe water table depletion in Sana'a and highland basins"
+        }
+      }
+    },
+    "Oman": {
+      "iso3": "OMN",
+      "capital": "Muscat",
+      "primary_tectonic_setting": "Arabian plate southeastern margin, Oman Mountains (oPHIOLITE), Makran Subduction Zone",
+      "hazards": {
+        "Tropical Cyclone": {
+          "level": "High",
+          "driver": "Direct exposure to Arabian Sea tropical cyclones (e.g. Gonu, Mekunu)"
+        },
+        "Flash Flood": {
+          "level": "High",
+          "driver": "Hajar Mountains steep wadis flooding coastal Batinah plain"
+        },
+        "Extreme Heat": {
+          "level": "High",
+          "driver": "Hyper-arid desert climate"
+        },
+        "Tsunami": {
+          "level": "Medium",
+          "driver": "Makran subduction zone mega-thrust earthquakes"
+        }
+      }
+    },
+    "United Arab Emirates": {
+      "iso3": "ARE",
+      "capital": "Abu Dhabi",
+      "primary_tectonic_setting": "Northeastern Arabian platform bordering the Oman Mountains and Persian Gulf",
+      "hazards": {
+        "Extreme Heat": {
+          "level": "High",
+          "driver": "Persian Gulf high humidity and 48°C+ summer ambient temperatures"
+        },
+        "Flash Flood": {
+          "level": "Medium-High",
+          "driver": "Mesoscale convective cloudbursts over urbanized flat terrain and Hajar foothills"
+        },
+        "Extreme Dust Storm": {
+          "level": "High",
+          "driver": "Summer Shamal dust events"
+        }
+      }
+    },
+    "Kuwait": {
+      "iso3": "KWT",
+      "capital": "Kuwait City",
+      "primary_tectonic_setting": "Arabian platform sedimentary cover",
+      "hazards": {
+        "Extreme Heat": {
+          "level": "High",
+          "driver": "World-record extreme temperatures (54.0°C Mitribah)"
+        },
+        "Extreme Dust Storm": {
+          "level": "High",
+          "driver": "Northwesterly Shamal winds transporting Iraqi dust plumes"
+        },
+        "Flash Flood": {
+          "level": "Medium",
+          "driver": "Sudden torrential cloudbursts overwhelming flat urban drainage"
+        }
+      }
+    },
+    "Qatar": {
+      "iso3": "QAT",
+      "capital": "Doha",
+      "primary_tectonic_setting": "Qatar arch in the Arabian Gulf",
+      "hazards": {
+        "Extreme Heat": {
+          "level": "High",
+          "driver": "Persian Gulf hyperthermic wet-bulb combinations"
+        },
+        "Extreme Dust Storm": {
+          "level": "High",
+          "driver": "Desert Shamal gales"
+        },
+        "Flash Flood": {
+          "level": "Low-to-Medium",
+          "driver": "Ephemeral desert downpours"
+        }
+      }
+    },
+    "Bahrain": {
+      "iso3": "BHR",
+      "capital": "Manama",
+      "primary_tectonic_setting": "Low-lying archipelago in the Gulf of Bahrain",
+      "hazards": {
+        "Extreme Heat": {
+          "level": "High",
+          "driver": "Persistent marine heat indices"
+        },
+        "Coastal Inundation": {
+          "level": "High",
+          "driver": "Low-lying topography vulnerable to storm surges and sea-level rise"
+        }
+      }
+    },
+    "Cyprus": {
+      "iso3": "CYP",
+      "capital": "Nicosia",
+      "primary_tectonic_setting": "Cyprus Arc (African-Anatolian plate boundary) & Troodos Ophiolite",
+      "hazards": {
+        "Earthquake": {
+          "level": "High",
+          "driver": "Cyprus Arc subduction and strike-slip faults"
+        },
+        "Wildfire": {
+          "level": "High",
+          "driver": "Troodos mountain pine forests under prolonged Mediterranean summer drought"
+        },
+        "Tsunami": {
+          "level": "Medium",
+          "driver": "Eastern Mediterranean seismogenic tsunamis"
+        },
+        "Drought": {
+          "level": "High",
+          "driver": "Island water resource vulnerability"
+        }
+      }
+    }
+  }
+}

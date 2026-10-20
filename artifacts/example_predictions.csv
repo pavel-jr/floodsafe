@@ -1,0 +1,3 @@
+location,latitude,longitude,month,country,disaster_type,predicted_flood_severity,output_scope
+Nahariya,33.005,35.095,10,Israel,River Flood,Catastrophic,Historical severity only; not contamination
+Jerusalem,31.768,35.214,10,Israel,Flash Flood,High,Historical severity only; not contamination

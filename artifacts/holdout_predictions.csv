@@ -1,0 +1,18 @@
+canonical_id,year,severity_level,predicted_severity
+ISR-FLD-2018-01,2018,Catastrophic,High
+ME-FLD-QAT-2018-01,2018,Moderate,Catastrophic
+ME-FLD-JOR-2018-01,2018,Very High,Catastrophic
+ME-FLD-JOR-2018-02,2018,High,Catastrophic
+ME-FLD-KWT-2018-01,2018,High,Catastrophic
+ISR-FLD-2018-02,2018,Very High,Catastrophic
+ME-FLD-IRN-2019-01,2019,Catastrophic,Catastrophic
+ISR-FLD-2020-01,2020,Very High,High
+ISR-FLD-2020-02,2020,High,High
+ME-FLD-YEM-2020-01,2020,Catastrophic,Catastrophic
+ME-FLD-PSE-2020-01,2020,Moderate,Catastrophic
+ME-FLD-TUR-2021-01,2021,High,High
+ME-FLD-ARE-2022-01,2022,High,Catastrophic
+ME-FLD-IRN-2022-01,2022,High,Catastrophic
+ISR-FLD-2023-01,2023,Very High,High
+ME-FLD-ARE-2024-01,2024,Catastrophic,Catastrophic
+ISR-FLD-2024-01,2024,Moderate,Catastrophic

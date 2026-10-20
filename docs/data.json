@@ -1,0 +1,346 @@
+{
+  "locations": [
+    {
+      "location": "Nahariya",
+      "latitude": 33.005,
+      "longitude": 35.095,
+      "flood_exposure": 90,
+      "sewage_exposure": 85,
+      "water_vulnerability": 70,
+      "pipe_vulnerability": 75
+    },
+    {
+      "location": "Haifa",
+      "latitude": 32.794,
+      "longitude": 34.99,
+      "flood_exposure": 65,
+      "sewage_exposure": 70,
+      "water_vulnerability": 55,
+      "pipe_vulnerability": 65
+    },
+    {
+      "location": "Tiberias",
+      "latitude": 32.795,
+      "longitude": 35.531,
+      "flood_exposure": 75,
+      "sewage_exposure": 60,
+      "water_vulnerability": 85,
+      "pipe_vulnerability": 60
+    },
+    {
+      "location": "Afula",
+      "latitude": 32.609,
+      "longitude": 35.289,
+      "flood_exposure": 70,
+      "sewage_exposure": 65,
+      "water_vulnerability": 70,
+      "pipe_vulnerability": 60
+    },
+    {
+      "location": "Hadera",
+      "latitude": 32.434,
+      "longitude": 34.919,
+      "flood_exposure": 80,
+      "sewage_exposure": 80,
+      "water_vulnerability": 75,
+      "pipe_vulnerability": 70
+    },
+    {
+      "location": "Netanya",
+      "latitude": 32.321,
+      "longitude": 34.853,
+      "flood_exposure": 65,
+      "sewage_exposure": 60,
+      "water_vulnerability": 60,
+      "pipe_vulnerability": 65
+    },
+    {
+      "location": "Tel Aviv",
+      "latitude": 32.085,
+      "longitude": 34.782,
+      "flood_exposure": 85,
+      "sewage_exposure": 90,
+      "water_vulnerability": 65,
+      "pipe_vulnerability": 85
+    },
+    {
+      "location": "Ashdod",
+      "latitude": 31.804,
+      "longitude": 34.655,
+      "flood_exposure": 75,
+      "sewage_exposure": 70,
+      "water_vulnerability": 65,
+      "pipe_vulnerability": 70
+    },
+    {
+      "location": "Jerusalem",
+      "latitude": 31.768,
+      "longitude": 35.214,
+      "flood_exposure": 40,
+      "sewage_exposure": 45,
+      "water_vulnerability": 60,
+      "pipe_vulnerability": 55
+    },
+    {
+      "location": "Beersheba",
+      "latitude": 31.252,
+      "longitude": 34.791,
+      "flood_exposure": 55,
+      "sewage_exposure": 50,
+      "water_vulnerability": 60,
+      "pipe_vulnerability": 50
+    },
+    {
+      "location": "Ein Gedi",
+      "latitude": 31.45,
+      "longitude": 35.384,
+      "flood_exposure": 95,
+      "sewage_exposure": 30,
+      "water_vulnerability": 80,
+      "pipe_vulnerability": 40
+    },
+    {
+      "location": "Eilat",
+      "latitude": 29.558,
+      "longitude": 34.952,
+      "flood_exposure": 65,
+      "sewage_exposure": 35,
+      "water_vulnerability": 55,
+      "pipe_vulnerability": 40
+    }
+  ],
+  "report": {
+    "task": "Historical flood-event severity classification, conditional on a flood occurring",
+    "not_supported": [
+      "drinking-water contamination prediction",
+      "24-hour forecasts",
+      "flood occurrence probability"
+    ],
+    "unique_flood_events": 38,
+    "train_events": 21,
+    "test_events": 17,
+    "split": "Train years < 2018; test years >= 2018; duplicate Israel catalog IDs removed",
+    "features": [
+      "latitude",
+      "longitude",
+      "month",
+      "country",
+      "disaster_type"
+    ],
+    "target": "severity_level",
+    "class_counts": {
+      "High": 14,
+      "Catastrophic": 12,
+      "Very High": 7,
+      "Moderate": 5
+    },
+    "model": {
+      "accuracy": 0.29411764705882354,
+      "balanced_accuracy": 0.2708333333333333,
+      "macro_f1": 0.1846590909090909,
+      "confusion_matrix_labels": [
+        "Moderate",
+        "High",
+        "Very High",
+        "Catastrophic"
+      ],
+      "confusion_matrix": [
+        [
+          0,
+          0,
+          0,
+          3
+        ],
+        [
+          0,
+          2,
+          0,
+          4
+        ],
+        [
+          0,
+          2,
+          0,
+          2
+        ],
+        [
+          0,
+          1,
+          0,
+          3
+        ]
+      ]
+    },
+    "majority_baseline": {
+      "accuracy": 0.23529411764705882,
+      "balanced_accuracy": 0.25,
+      "macro_f1": 0.09523809523809523,
+      "confusion_matrix_labels": [
+        "Moderate",
+        "High",
+        "Very High",
+        "Catastrophic"
+      ],
+      "confusion_matrix": [
+        [
+          0,
+          0,
+          0,
+          3
+        ],
+        [
+          0,
+          0,
+          0,
+          6
+        ],
+        [
+          0,
+          0,
+          0,
+          4
+        ],
+        [
+          0,
+          0,
+          0,
+          4
+        ]
+      ]
+    },
+    "limitations": [
+      "Small, curated disaster-only sample; no non-event controls.",
+      "Severity labels describe overall disaster impact, not contamination.",
+      "No rainfall, flood depth, sewage proximity, water infrastructure or laboratory outcomes.",
+      "Catalog source claims were not independently verified.",
+      "Geographic transfer and probability calibration have not been validated.",
+      "Current hazard profiles excluded to avoid retrospective information leakage."
+    ],
+    "source_sha256": {
+      "middle_east_natural_disasters.csv": "ac0a40838b5bd329f0b3559b64ac1c193e4a62297e689246b241bfe7ea05ae9e",
+      "israel_jerusalem_natural_disasters.csv": "6b46f104c5eb25af16f41ef73eebdcdc1738561154096ac9be38834fb2159896"
+    }
+  },
+  "model": {
+    "mean": [
+      29.955263157894734,
+      38.662894736842105,
+      6.842105263157895
+    ],
+    "scale": [
+      4.867079388386139,
+      6.575691241588913,
+      4.075125544010391
+    ],
+    "categories": [
+      [
+        "Egypt",
+        "Iran",
+        "Iraq",
+        "Israel",
+        "Jordan",
+        "Kuwait",
+        "Qatar",
+        "Saudi Arabia",
+        "State of Palestine",
+        "Turkey",
+        "United Arab Emirates",
+        "Yemen"
+      ],
+      [
+        "Flash Flood",
+        "River Flood"
+      ]
+    ],
+    "coefficients": [
+      [
+        -0.3842290115171877,
+        0.14817501707462769,
+        0.12148281733788589,
+        0.16899543330631886,
+        0.128308833318544,
+        0.19217716430057916,
+        -0.09544356516163305,
+        -0.20355133843090847,
+        -0.10471341290884803,
+        -0.1407599514094305,
+        -0.0023148684518932046,
+        -0.08161975658351535,
+        -0.025716929073222004,
+        0.01826415102178268,
+        0.1465948120821778,
+        -0.20376198566754494,
+        0.2039825576774969
+      ],
+      [
+        0.27309380052795457,
+        0.14605946125399497,
+        -0.19678468700107424,
+        -0.07080487552240551,
+        -0.02931668413850177,
+        -0.13638009808527332,
+        -0.1749338255094635,
+        0.1897596007645028,
+        0.1723123853221531,
+        -0.08535301839868233,
+        0.1317653442368574,
+        -0.09914295977525132,
+        0.11116264805588201,
+        0.06359794814431677,
+        -0.072862474000753,
+        0.05249986219436688,
+        -0.0526958711009854
+      ],
+      [
+        0.0002481631624656217,
+        0.03068380230146562,
+        0.3284815618175663,
+        -0.05311393083254164,
+        -0.04955347093279808,
+        -0.018100395125082994,
+        0.02974236886129529,
+        -0.1233935099912335,
+        -0.049397007037879075,
+        0.24037226170563047,
+        -0.06595354164568992,
+        0.22508116098124378,
+        -0.03387315570618125,
+        -0.055275976688518635,
+        -0.04781378409892786,
+        0.16466992223600088,
+        -0.1659489027466842
+      ],
+      [
+        0.11088704782676753,
+        -0.32491828063008865,
+        -0.2531796921543776,
+        -0.045076626951371705,
+        -0.04943867824724418,
+        -0.03769667109022288,
+        0.24063502180980106,
+        0.13718524765763926,
+        -0.018201965375425996,
+        -0.014259291897517672,
+        -0.06349693413927433,
+        -0.044318444622477075,
+        -0.051572563276478786,
+        -0.026586122477580822,
+        -0.025918553982496942,
+        -0.013407798762822677,
+        0.014662216170172654
+      ]
+    ],
+    "intercept": [
+      0.5045236140645941,
+      0.574728491231978,
+      -0.6687111947630768,
+      -0.41054091053349306
+    ],
+    "classes": [
+      "Catastrophic",
+      "High",
+      "Moderate",
+      "Very High"
+    ]
+  }
+}

@@ -1,0 +1,145 @@
+{
+  "evaluation_sources": [
+    "ThinkHazard! (World Bank / Global Facility for Disaster Reduction and Recovery - GFDRR) (https://thinkhazard.org/)",
+    "National Knowledge and Research Center for Emergency Readiness (Haifa University / NEMA) (https://geo.haifa.ac.il/~inbar/)",
+    "Jerusalem Institute for Policy Research (JIPR) (https://jerusaleminstitute.org.il/)",
+    "Geological Survey of Israel (GSI) (https://www.gov.il/en/departments/geological_survey_of_israel)",
+    "Israel Meteorological Service (IMS) (https://ims.gov.il/)"
+  ],
+  "jerusalem_district_specific_assessment": {
+    "district_name": "Jerusalem District (Mekhoz Yerushalayim)",
+    "geography": "Judean Mountains, Elevation 600m - 850m above sea level, Mediterranean to semi-arid transitional climate zone.",
+    "population_exposed": 1300000,
+    "top_hazards": [
+      {
+        "hazard": "Severe Winter Storms & Blizzards",
+        "historical_benchmark": "Dec 2013 Storm Alexa (50-70 cm snow, 40,000 homes blacked out, Route 1 closed 72h).",
+        "vulnerability_factors": "Mountain topography, reliance on two major highway lifelines (Route 1 & Route 443), above-ground power grid vulnerable to snow and branch collapse."
+      },
+      {
+        "hazard": "Wildfires in Jerusalem Hills Corridor",
+        "historical_benchmark": "August 2021 Wildfire (25,000 dunams burned, 2,000 evacuated, hospital evacuated).",
+        "vulnerability_factors": "Dense pine forests planted during 20th century bordering residential suburban communities, steep topography creating chimney wind effects, frequent Sharav wind conditions."
+      },
+      {
+        "hazard": "Earthquakes along Dead Sea Transform",
+        "historical_benchmark": "1927 Jericho M 6.3 Earthquake (> 130 dead in Jerusalem/Nablus, Mount of Olives and Augusta Victoria heavily damaged).",
+        "vulnerability_factors": "Proximity to Dead Sea fault (~25-30 km east), large inventory of unreinforced masonry buildings built before Israeli Standard SI 413 (pre-1980), high density in Old City and East Jerusalem."
+      },
+      {
+        "hazard": "Extreme Heatwaves & Urban Heat Island",
+        "historical_benchmark": "Sept 2020 Record Heatwave (42.7°C, all-time record night minimum 31.5°C).",
+        "vulnerability_factors": "Rapid urban densification, limestone paving and stone facades retaining nocturnal heat, vulnerable elderly population."
+      },
+      {
+        "hazard": "Urban Flash Floods & Downstream Desert Surges",
+        "historical_benchmark": "April 2018 Nahal Tzafit disaster; January 2020 valley inundations.",
+        "vulnerability_factors": "Steep runoff gradients flowing east into Judean desert wadis; narrow ravines and drainage pinch-points in valley bottoms (Nahal Sorek, Kidron)."
+      }
+    ]
+  },
+  "jurisdiction": "Israel & Jerusalem District",
+  "national_hazard_classification": {
+    "Coastal Flood": {
+      "description": "Winter storm surges and sea-level rise impacting low-lying Mediterranean coastal areas.",
+      "level": "Medium",
+      "regional_hotspots": [
+        "Haifa Bay",
+        "Tel Aviv Coast",
+        "Ashkelon"
+      ],
+      "source": "ThinkHazard! (https://thinkhazard.org/) / IMS Marine Branch (https://ims.gov.il/)"
+    },
+    "Earthquake": {
+      "description": "Greater than 10% chance of potentially damaging ground shaking (> VII MMI) in the next 50 years along the Dead Sea Transform boundary.",
+      "level": "Medium",
+      "regional_hotspots": [
+        "Dead Sea Fault",
+        "Jericho Corridor",
+        "Jordan Valley",
+        "Jerusalem District"
+      ],
+      "source": "ThinkHazard! (https://thinkhazard.org/) / GSI Seismology Division (https://www.gov.il/en/departments/geological_survey_of_israel)"
+    },
+    "Extreme Heat": {
+      "description": "Prolonged exposure to extreme thermal stress. Summer heatwaves (Sharav/Khamsin) reaching 40-45°C in mountains and > 48°C in rift valley.",
+      "level": "High",
+      "regional_hotspots": [
+        "Jerusalem Basin",
+        "Jordan Rift Valley",
+        "Negev",
+        "Arava"
+      ],
+      "source": "ThinkHazard! (https://thinkhazard.org/) / IMS Climate Division (https://ims.gov.il/)"
+    },
+    "Geotechnical Sinkholes": {
+      "description": "Sudden subsurface collapse due to salt dissolution (> 7,000 sinkholes along Dead Sea coast) and karst voids beneath Jerusalem's limestone bedrock.",
+      "level": "High (Local) / Chronic",
+      "regional_hotspots": [
+        "Dead Sea Coastline",
+        "Jerusalem Urban Karst Formation"
+      ],
+      "source": "Geological Survey of Israel (https://www.gov.il/en/departments/geological_survey_of_israel) / NDI (https://geo.haifa.ac.il/~inbar/)"
+    },
+    "Landslide": {
+      "description": "Moderate potential for slope failure, rockfalls, and soil slips along steep mountain canyons in Judean Hills and Galilee during high-saturation winter storms.",
+      "level": "Medium",
+      "regional_hotspots": [
+        "Jerusalem Hills",
+        "Mount Scopus Escarpment",
+        "Dead Sea Cliffs"
+      ],
+      "source": "ThinkHazard! (https://thinkhazard.org/) / GSI Engineering Geology (https://www.gov.il/en/departments/geological_survey_of_israel)"
+    },
+    "River Flood": {
+      "description": "Potentially-damaging and life-threatening river and wadi flash floods are expected to occur at least once in the next 10 years.",
+      "level": "High",
+      "regional_hotspots": [
+        "Judean Desert Wadis",
+        "Dead Sea Basin",
+        "Ayalon Basin",
+        "Jordan Valley"
+      ],
+      "source": "ThinkHazard! (https://thinkhazard.org/) / IMS Hydrological Service (https://ims.gov.il/)"
+    },
+    "Tsunami": {
+      "description": "Mediterranean seismic or submarine landslide triggered tsunami waves (0.5m - 3m) and Dead Sea internal seiche waves documented historically.",
+      "level": "Medium",
+      "regional_hotspots": [
+        "Mediterranean Coast (Tel Aviv, Haifa, Acre)",
+        "Dead Sea Shoreline"
+      ],
+      "source": "ThinkHazard! (https://thinkhazard.org/) / NOAA NCEI (https://www.ngdc.noaa.gov/hazel/view/hazards/earthquake/search) / GSI (https://www.gov.il/en/departments/geological_survey_of_israel)"
+    },
+    "Urban Flood": {
+      "description": "Surface water accumulation during high-intensity cloudbursts due to high impervious surface ratios in urbanized municipalities like Jerusalem and Tel Aviv.",
+      "level": "Low-to-Medium",
+      "regional_hotspots": [
+        "Jerusalem Municipal Valleys (Talpiot, Emek Refaim)",
+        "Tel Aviv Ayalon Corridor"
+      ],
+      "source": "ThinkHazard! (https://thinkhazard.org/) / Jerusalem Institute for Policy Research (https://jerusaleminstitute.org.il/)"
+    },
+    "Water Scarcity & Drought": {
+      "description": "High baseline water stress with severe multi-year droughts occurring every 10-15 years. Mitigated through national desalination infrastructure.",
+      "level": "High",
+      "regional_hotspots": [
+        "National",
+        "Sea of Galilee Basin",
+        "Judean Mountain Aquifer"
+      ],
+      "source": "ThinkHazard! (https://thinkhazard.org/) / Israel Water Authority (https://www.gov.il/en/departments/water_authority)"
+    },
+    "Wildfire": {
+      "description": "Greater than 50% chance of encountering weather conducive to massive wildfires in any given year. Climate change projected to intensify fire season length and fuel aridity.",
+      "level": "High",
+      "regional_hotspots": [
+        "Jerusalem Hills Corridor",
+        "Mount Carmel",
+        "Upper Galilee",
+        "Judean Foothills"
+      ],
+      "source": "ThinkHazard! (https://thinkhazard.org/) / Fire and Rescue Authority (https://www.gov.il/en/departments/israel_fire_and_rescue_authority)"
+    }
+  }
+}

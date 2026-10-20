@@ -1,0 +1,112 @@
+{
+  "task": "Historical flood-event severity classification, conditional on a flood occurring",
+  "not_supported": [
+    "drinking-water contamination prediction",
+    "24-hour forecasts",
+    "flood occurrence probability"
+  ],
+  "unique_flood_events": 38,
+  "train_events": 21,
+  "test_events": 17,
+  "split": "Train years < 2018; test years >= 2018; duplicate Israel catalog IDs removed",
+  "features": [
+    "latitude",
+    "longitude",
+    "month",
+    "country",
+    "disaster_type"
+  ],
+  "target": "severity_level",
+  "class_counts": {
+    "High": 14,
+    "Catastrophic": 12,
+    "Very High": 7,
+    "Moderate": 5
+  },
+  "model": {
+    "accuracy": 0.29411764705882354,
+    "balanced_accuracy": 0.2708333333333333,
+    "macro_f1": 0.1846590909090909,
+    "confusion_matrix_labels": [
+      "Moderate",
+      "High",
+      "Very High",
+      "Catastrophic"
+    ],
+    "confusion_matrix": [
+      [
+        0,
+        0,
+        0,
+        3
+      ],
+      [
+        0,
+        2,
+        0,
+        4
+      ],
+      [
+        0,
+        2,
+        0,
+        2
+      ],
+      [
+        0,
+        1,
+        0,
+        3
+      ]
+    ]
+  },
+  "majority_baseline": {
+    "accuracy": 0.23529411764705882,
+    "balanced_accuracy": 0.25,
+    "macro_f1": 0.09523809523809523,
+    "confusion_matrix_labels": [
+      "Moderate",
+      "High",
+      "Very High",
+      "Catastrophic"
+    ],
+    "confusion_matrix": [
+      [
+        0,
+        0,
+        0,
+        3
+      ],
+      [
+        0,
+        0,
+        0,
+        6
+      ],
+      [
+        0,
+        0,
+        0,
+        4
+      ],
+      [
+        0,
+        0,
+        0,
+        4
+      ]
+    ]
+  },
+  "limitations": [
+    "Small, curated disaster-only sample; no non-event controls.",
+    "Severity labels describe overall disaster impact, not contamination.",
+    "No rainfall, flood depth, sewage proximity, water infrastructure or laboratory outcomes.",
+    "Catalog source claims were not independently verified.",
+    "Geographic transfer and probability calibration have not been validated.",
+    "Current hazard profiles excluded to avoid retrospective information leakage."
+  ],
+  "source_sha256": {
+    "middle_east_natural_disasters.csv": "ac0a40838b5bd329f0b3559b64ac1c193e4a62297e689246b241bfe7ea05ae9e",
+    "israel_jerusalem_natural_disasters.csv": "6b46f104c5eb25af16f41ef73eebdcdc1738561154096ac9be38834fb2159896"
+  }
+}

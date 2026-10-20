@@ -1,0 +1,173 @@
+{
+  "dataset_title": "Natural Disasters in Israel & Jerusalem: Historical & Modern Kaggle Benchmark Dataset",
+  "fields": [
+    {
+      "description": "Unique record identifier (e.g., ISR-EQ-1927-01).",
+      "name": "id",
+      "type": "string"
+    },
+    {
+      "description": "Canonical title of the disaster event.",
+      "name": "event_name",
+      "type": "string"
+    },
+    {
+      "description": "Primary classification: Earthquake, Wildfire, Severe Winter Storm, Flash Flood, River Flood, Extreme Heat, Drought, Sinkhole & Subsidence, Tsunami.",
+      "name": "disaster_type",
+      "type": "string"
+    },
+    {
+      "description": "Granular scientific or synoptic subtype.",
+      "name": "disaster_subtype",
+      "type": "string"
+    },
+    {
+      "description": "ISO-8601 start date (YYYY-MM-DD or BCE formatted).",
+      "name": "date_start",
+      "type": "string"
+    },
+    {
+      "description": "ISO-8601 end date.",
+      "name": "date_end",
+      "type": "string"
+    },
+    {
+      "description": "Year of occurrence (negative numbers denote BCE).",
+      "name": "year",
+      "type": "integer"
+    },
+    {
+      "description": "Historical era or century for filtering.",
+      "name": "century_or_era",
+      "type": "string"
+    },
+    {
+      "description": "Primary geographical locations impacted.",
+      "name": "primary_location",
+      "type": "string"
+    },
+    {
+      "description": "Administrative district (Jerusalem, Northern, Southern, Central, Haifa, National).",
+      "name": "district",
+      "type": "string"
+    },
+    {
+      "description": "Latitude coordinate (WGS84).",
+      "name": "latitude",
+      "type": "float"
+    },
+    {
+      "description": "Longitude coordinate (WGS84).",
+      "name": "longitude",
+      "type": "float"
+    },
+    {
+      "description": "Hypocentral depth in km (for seismic events).",
+      "name": "depth_km",
+      "type": "float"
+    },
+    {
+      "description": "Normalized numerical magnitude (Mw for earthquakes, cm for snow, dunams for fire, °C for heat).",
+      "name": "magnitude",
+      "type": "float"
+    },
+    {
+      "description": "Scale of the primary magnitude metric.",
+      "name": "magnitude_type",
+      "type": "string"
+    },
+    {
+      "description": "Modified Mercalli Intensity (MMI) where applicable.",
+      "name": "intensity_mmi",
+      "type": "string"
+    },
+    {
+      "description": "Human-readable severity string.",
+      "name": "severity_metric",
+      "type": "string"
+    },
+    {
+      "description": "Categorical severity: Moderate, High, Very High, Catastrophic.",
+      "name": "severity_level",
+      "type": "string"
+    },
+    {
+      "description": "Boolean flag indicating whether the event directly impacted Jerusalem and its corridor.",
+      "name": "impact_jerusalem",
+      "type": "boolean"
+    },
+    {
+      "description": "Specific impact details on Jerusalem's population, infrastructure, and heritage sites.",
+      "name": "jerusalem_impact_description",
+      "type": "string"
+    },
+    {
+      "description": "Confirmed direct and indirect fatalities.",
+      "name": "fatalities",
+      "type": "integer"
+    },
+    {
+      "description": "Estimated historical range of fatalities.",
+      "name": "fatalities_estimate_range",
+      "type": "string"
+    },
+    {
+      "description": "Confirmed injuries or hospitalizations.",
+      "name": "injuries",
+      "type": "integer"
+    },
+    {
+      "description": "Displaced, stranded, or evacuated persons.",
+      "name": "displaced_evacuated",
+      "type": "integer"
+    },
+    {
+      "description": "Estimated economic damage in USD (adjusted for context).",
+      "name": "economic_damage_usd_est",
+      "type": "integer"
+    },
+    {
+      "description": "Tectonic fault segment (Dead Sea Transform, Jericho segment, etc.).",
+      "name": "fault_system",
+      "type": "string"
+    },
+    {
+      "description": "Synoptic weather pattern (Cyprus Low, Red Sea Trough, Sharav) or tectonic mechanism.",
+      "name": "synoptic_or_geological_mechanism",
+      "type": "string"
+    },
+    {
+      "description": "Comprehensive narrative summary of the disaster.",
+      "name": "summary",
+      "type": "string"
+    },
+    {
+      "description": "Response actions by national and municipal agencies (IDF Home Front Command, Fire and Rescue, Police, NEMA).",
+      "name": "emergency_response",
+      "type": "string"
+    },
+    {
+      "description": "Authoritative database citations, peer-reviewed monographs, and institutional references.",
+      "name": "sources",
+      "type": "array[string]"
+    },
+    {
+      "description": "Array of verified official website URLs and DOI links corresponding to each citation in sources.",
+      "name": "links",
+      "type": "array[string]"
+    },
+    {
+      "description": "Array of verified official website URLs and DOI links corresponding to each citation in sources.",
+      "name": "source_urls",
+      "type": "array[string]"
+    }
+  ],
+  "geographic_bounding_box": {
+    "max_latitude": 33.5,
+    "max_longitude": 36.5,
+    "min_latitude": 28.5,
+    "min_longitude": 34.0
+  },
+  "release_date": "2026-09-06",
+  "version": "1.0.0"
+}
